@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Iniciar Sesión</title>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fondo -->
+  <div>
+    <div class="logo">
+      <h2 class="bienvenida">¡Bienvenido!</h2>
+      <img src="img/logo.png" alt="logotipo"/>
+    </div>
+    <div class="wrapper">
+      <form class="form-signin">       
+        <h2 class="form-signin-heading">Iniciar Sesión</h2>
+        <input type="text" class="form-control" name="username" placeholder="Correo Electrónico" required="" autofocus=""/>
+        <input type="password" class="form-control" name="password" placeholder="Contraseña" required=""/>
+        <input type="text" class="form-control" name="codigo-emp" placeholder="Código de Empresa" required="" autofocus=""/>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me" id="Recordarme" name="Recordarme">Recordar Contraseña
+        </label>
+        <a href="notificacion.html" class="cancelar btn btn-lg btn-light" role="button">Cancelar</a>  
+        <button class="acceder btn btn-lg btn-primary" type="submit" role="button">Acceder</button>
+        <a class="restaurar" href="#">¿Olvidó la contraseña?</a>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p><b>Contactar al desarrollador:</b> wilmerpelico22@gmail.com</p>
+  </footer>
+</body>
+</html>
